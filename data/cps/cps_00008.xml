@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-cd0bed00-c509-0138-e097-0242ac190006-cps_00008.dat-cps.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS-CPS Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'cps_00008.dat'</subTitl>
+        <IDNo>ddi2-cd0bed00-c509-0138-e097-0242ac190006-cps_00008.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2021-10-20">October 20, 2021</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00008.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2021-10-20">October 20, 2021</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="cps">IPUMS CPS</serName>
+        <serInfo>DOI:10.18128/D030.V9.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2021-10-20"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Geographic Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Economic Characteristics Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Demographics Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Family Interrelationships Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Income Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Tax Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2899">
+        <timePrd date="2015-03" event="single">2015-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2912">
+        <timePrd date="2016-03" event="single">2016-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2936">
+        <timePrd date="2017-03" event="single">2017-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2949">
+        <timePrd date="2018-03" event="single">2018-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2963">
+        <timePrd date="2019-03" event="single">2019-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2977">
+        <timePrd date="2020-03" event="single">2020-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2993">
+        <timePrd date="2021-03" event="single">2021-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2015
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2016
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2017
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2018
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2019
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2020
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact URI="http://cps.ipums.org/" affiliation="IPUMS">IPUMS-CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS-CPS database must cite it appropriately. The citation should include the following:
+
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren and Michael Westberry. Integrated Public Use Microdata Series, Current Population Survey: Version 9.0 [dataset]. Minneapolis, MN: IPUMS, 2021. https://doi.org/10.18128/D030.V9.0
+
+The licensing agreement for use of IPUMS-CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS-CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS-CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Revision of (Revision of (IPUMS individual tax filing data for student project))]]></notes>
+    <notes>This extract is a revision of the user's previous extract, ID 8870563.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00008.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+      <location EndPos="4" StartPos="1" width="4"/>
+      <labl>Survey year</labl>
+      <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+      <codInstr><![CDATA[CodesYEAR is a 4-digit numeric value.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SERIAL" dcml="0" files="ExtractData" intrvl="contin" name="SERIAL">
+      <location EndPos="9" StartPos="5" width="5"/>
+      <labl>Household serial number</labl>
+      <txt><![CDATA[SERIAL is an identifying number unique to each household in a given survey month and year.  All person records are assigned the same serial number as the household record they follow.  A combination of YEAR, MONTH, and SERIAL provides a within-sample unique identifier for every household in IPUMS-CPS; YEAR, MONTH, SERIAL, and PERNUM uniquely identify every person within a single sample.
+
+SERIAL is a new value generated for IPUMS-CPS and should not be confused with the household serial number created by the Census Bureau and included in the original CPS data.]]></txt>
+      <codInstr><![CDATA[CodesSERIAL is a 5-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MONTH" dcml="0" files="ExtractData" intrvl="discrete" name="MONTH">
+      <location EndPos="11" StartPos="10" width="2"/>
+      <labl>Month</labl>
+      <txt><![CDATA[MONTH indicates the calendar month of the CPS interview.]]></txt>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>January</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>February</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>March</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>April</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>May</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>June</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>July</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>August</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>September</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>October</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>November</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>December</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CPSID" dcml="0" files="ExtractData" intrvl="contin" name="CPSID">
+      <location EndPos="25" StartPos="12" width="14"/>
+      <labl>CPSID, household record</labl>
+      <txt><![CDATA[CPSID is an IPUMS-CPS defined variable that uniquely identifies households across CPS samples. The first six digits of CPSID index the four-digit year and two-digit month that the household was first in the CPS. CPSID allows users to link a household record across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSID value based on a combination of household identifiers. CPSID will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MIS). In some cases, a household will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. CPSID Extensive documentation about the creation of CPSID is available elsewhere.
+
+CPSID may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. Users should note that ASEC oversample households (as indicated by ASECOVERH) will always have a CPSID value of 0.
+
+Users may also want to see CPSIDP for more information about linking individuals across time using a person-specific version of CPSID.]]></txt>
+      <codInstr><![CDATA[CodesCPSID is a 14-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Linking Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASECFLAG" dcml="0" files="ExtractData" intrvl="discrete" name="ASECFLAG">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <labl>Flag for ASEC</labl>
+      <txt><![CDATA[ASECFLAG indicates whether the respondent is part of the ASEC or the March Basic. This variable is useful for users who wish to distinguish ASEC and March Basic files in their extracts. See further information about the ASEC versus the March Basic Monthly Files.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>ASEC</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>March Basic</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASECWTH" dcml="4" files="ExtractData" intrvl="contin" name="ASECWTH">
+      <location EndPos="36" StartPos="27" width="10"/>
+      <labl>Annual Social and Economic Supplement Household weight</labl>
+      <txt><![CDATA[ASECWTH is a household-level weight that should be used to generate statistics about households in March Annual Social and Economic (ASEC) Supplement data. The CPS uses a complex stratified sampling scheme, and ASECWTH must be used to produce unbiased household-level statistics from the IPUMS-CPS ASEC data. For analyses of non-ASEC data, researchers should use HWTFINL. For individual-level analyses, researchers should use WTFINL, ASECWT, or EARNWT. 
+
+ASECWTH generally has the same value as WTSUPP for the household head or reference person. Vacant housing units and households that could not be interviewed due to residents' absence or refusal to participate have a value of zero in HWTSUPP; such sampled units were included in the public use CPS data beginning in 1988. 
+
+Estimates on the entire population are prepared by projecting forward the resident population from the last available census. These projections are derived by updating the demographic census data from a number of other data sources that account for death, births and net migration. About 3 years after every census (i.e. 2003 for the 2000 Census and 2013 for the 2010 Census), the Census Bureau updates its independent population control and provides a new weight for the relevant years.
+
+Two important points should be noted here. First, the lag between when the Census is conducted and when the CPS weights are updated is about 3 years. While the Census data are being processed, the CPS files are made available using the weighting scheme from the US Census prior to the latest Census. Second, once the files are updated, the old weights become obsolete and are replaced in the IPUMS data extract system. Published estimates from the lag years that use the old weights are not always updated. For example, 2010 poverty estimates were released in ASEC using the 2000 population controls. Once the 2010 population controls were made available, IPUMS-CPS replaced the ASEC 2010, 2011, and 2012 weights that are based on the 2000 population control with weights that are based on the 2010 population controls.
+
+IPUMS-CPS makes available only the most up-to-date weights. The old values are available here: Old SPM and Weights Values.]]></txt>
+      <codInstr><![CDATA[CodesASECWTH is a 10-digit numeric variable with four implied decimals.  That is, 1234567890 should be interpreted as 123456.7890.  The IPUMS command files automatically divide ASECWTH by 10,000, so no further adjustment is needed.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STATEFIP" dcml="0" files="ExtractData" intrvl="discrete" name="STATEFIP">
+      <location EndPos="38" StartPos="37" width="2"/>
+      <labl>State (FIPS code)</labl>
+      <txt><![CDATA[STATEFIP identifies the household's state of residence, using the Federal Information Processing Standards (FIPS) coding scheme, which orders the states alphabetically.
+
+In 1973-1975 ASEC samples, all households in the Anaheim-Santa Ana-Garden Grove, CA METAREA are coded as Michigan-Wisconsin for STATEFIP in the original data. As there is insufficient geographic information in the public use data to determine which variable is in error, this mistake has been left un-recoded.]]></txt>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>Alabama</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>Alaska</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>Arizona</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>Arkansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>California</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>Colorado</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>Connecticut</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Delaware</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>District of Columbia</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Florida</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Georgia</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Idaho</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Illinois</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>Indiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>Iowa</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Kansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Kentucky</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Louisiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Maine</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>Maryland</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>Massachusetts</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>Michigan</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>Minnesota</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>Mississippi</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>Missouri</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Montana</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>Nebraska</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>Nevada</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>New Hampshire</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>New Jersey</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>New Mexico</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>New York</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>North Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>North Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>Ohio</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>Oregon</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>Pennsylvania</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>Rhode Island</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>South Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>South Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>Tennessee</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>Texas</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>Utah</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>Washington</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>West Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>Wisconsin</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>Wyoming</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>Maine-New Hampshire-Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>Montana-Idaho-Wyoming</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>Alaska-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>69</catValu>
+        <labl>Nebraska-North Dakota-South Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>Maine-Massachusetts-New Hampshire-Rhode Island-Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>Michigan-Wisconsin</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>Minnesota-Iowa</labl>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>Nebraska-North Dakota-South Dakota-Kansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>Delaware-Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>75</catValu>
+        <labl>North Carolina-South Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>76</catValu>
+        <labl>Alabama-Mississippi</labl>
+      </catgry>
+      <catgry>
+        <catValu>77</catValu>
+        <labl>Arkansas-Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>78</catValu>
+        <labl>Arizona-New Mexico-Colorado</labl>
+      </catgry>
+      <catgry>
+        <catValu>79</catValu>
+        <labl>Idaho-Wyoming-Utah-Montana-Nevada</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>Alaska-Washington-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>New Hampshire-Maine-Vermont-Rhode Island</labl>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>South Carolina-Georgia</labl>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>Kentucky-Tennessee</labl>
+      </catgry>
+      <catgry>
+        <catValu>85</catValu>
+        <labl>Arkansas-Louisiana-Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>87</catValu>
+        <labl>Iowa-N Dakota-S Dakota-Nebraska-Kansas-Minnesota-Missouri</labl>
+      </catgry>
+      <catgry>
+        <catValu>88</catValu>
+        <labl>Washington-Oregon-Alaska-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>89</catValu>
+        <labl>Montana-Wyoming-Colorado-New Mexico-Utah-Nevada-Arizona</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>Delaware-Maryland-Virginia-West Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>State not identified</labl>
+      </catgry>
+      <concept vocab="IPUMS">Geographic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HHINCOME" dcml="0" files="ExtractData" intrvl="contin" name="HHINCOME">
+      <location EndPos="46" StartPos="39" width="8"/>
+      <labl>Total household income</labl>
+      <txt><![CDATA[HHINCOME reports the total money income during the previous calendar year of all adult household members.  The amount should equal the sum of all household members' individual incomes as recorded in the IPUMS-CPS variable INCTOT.  The persons included were those present in the household at the time of the survey.  People who lived in the household during the previous year but were not still living there at the time of the survey are not included; household members who lived elsewhere during the previous year but had joined the household at the time of the survey are included.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Economic Characteristics Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+      <location EndPos="48" StartPos="47" width="2"/>
+      <labl>Person number in sample unit</labl>
+      <txt><![CDATA[PERNUM numbers all persons within each household consecutively (starting with "1") in the order in which they are listed in the original CPS data.  When combined with YEAR , MONTH, and SERIAL, PERNUM uniquely identifies each person within IPUMS-CPS samples, though not across IPUMS-CPS samples.]]></txt>
+      <codInstr><![CDATA[CodesPERNUM is a 2-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CPSIDP" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDP">
+      <location EndPos="62" StartPos="49" width="14"/>
+      <labl>CPSID, person record</labl>
+      <txt><![CDATA[CPSIDP is an IPUMS-CPS defined variable that uniquely identifies individuals across CPS samples. The first six digits of CPSIDP index the four-digit year and two-digit month that the household was first in the CPS. CPSIDP allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSIDP value to this line number. CPSIDP will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, individuals will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. Extensive documentation about the creation of CPSIDP is available elsewhere.
+
+Users should note that it is important to verify CPSIDP linkages with AGE, SEX, and RACE. In some cases CPSIDP will result in erroneous links, which are due to errors in the source data. Cases with the same CPSIDP value may also have inconsistent responses across samples due to errors on the part of the respondent or in recording the response. Ultimately, it is up to the individual researcher to determine the acceptability of the linkages made using CPSIDP. 
+
+CPSIDP may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDP, users may want to sort their data file by CPSIDP and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDP value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+      <codInstr><![CDATA[CodesCPSIDP is a 14-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASECWT" dcml="4" files="ExtractData" intrvl="contin" name="ASECWT">
+      <location EndPos="72" StartPos="63" width="10"/>
+      <labl>Annual Social and Economic Supplement Weight</labl>
+      <txt><![CDATA[ASECWT is a person-level weight that should be used in analyses of individual-level CPS supplement data. Since the CPS relies on a complex stratified sampling scheme, it is essential to use one of the provided weighting variables.
+
+Researchers should use WTFINL rather than ASECWT when they wish to conduct person-level analyses of non-ASEC data. EARNWT should be used for any analysis including a small number of person-level variables (EARNWEEK, HOURWAGE, PAIDHOUR, and UNION). Researchers should use ASECWTH for household-level analyses. ASECWTCVD is available for the 2020 ASEC to adjust for nonrandom nonresponse resulting from the COVID-19 pandemic.
+
+User Caution: For analyses that include the 2014 ASEC sample, please see the comparability tab.
+
+The ASEC CPS files include two groups of people who are not included in the production of published labor force statistics: (1) members of the armed services, and (2) members of the Hispanic oversample who were interviewed in months other than March. WTFINL and EARNWT assign these groups a value of 0. Both groups are assigned non-zero values in ASECWT.
+
+ASECWT is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; the known distribution of the entire population according to age, sex, and race; over-sampling Hispanic persons; to give husbands and wives the same weight; and an additional step to provide consistency with labor force estimates from the basic survey. 
+
+Estimates on the entire population are prepared by projecting forward the resident population from the last available census. These projections are derived by updating the demographic census data from a number of other data sources that account for death, births and net migration. About 3 years after every census (i.e. 2003 for the 2000 Census and 2013 for the 2010 Census), the Census Bureau updates its independent population control and provides a new weight for the relevant years.
+
+Two important points should be noted here. First, the lag between when the Census is conducted and when the CPS weights are updated is about 3 years. While the Census data are being processed, the CPS files are made available using the weighting scheme from the US Census prior to the latest Census. Second, once the files are updated, the old weights become obsolete and are replaced in the IPUMS data extract system. Published estimates from the lag years that use the old weights are not always updated. For example, 2010 poverty estimates were released in ASEC using the 2000 population controls. Once the 2010 population controls were made available, IPUMS-CPS replaced the ASEC 2010, 2011, and 2012 weights that are based on the 2000 population control with weights that are based on the 2010 population controls. IPUMS-CPS makes available only the most up-to-date weights.]]></txt>
+      <codInstr><![CDATA[CodesASECWT is a 10-digit numeric variable with four implied decimal places. That is, values of 0012345600 should be interpreted as 1,234.56.  The IPUMS command files automatically divide ASECWT by 10,000, so no further adjustment is needed.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="RELATE" dcml="0" files="ExtractData" intrvl="discrete" name="RELATE">
+      <location EndPos="76" StartPos="73" width="4"/>
+      <labl>Relationship to household head</labl>
+      <txt><![CDATA[RELATE reports an individual's relationship to the head of household or householder.
+
+CPS interviewers collected detailed information about the precise relationships of all persons in the household in their initial listing of household members.  Unfortunately, they then simplified the detailed data (e.g., daughter-in-law, lodger's brother) by coding it into a few broad categories (e.g., "other relative of head," "nonrelative of head with own relatives in household") specified on the interview form.  Only the broad categories are preserved in the data.  The 4-digit codes for RELATE are consistent with the coding scheme used in IPUMS-USA census data.]]></txt>
+      <catgry>
+        <catValu>0101</catValu>
+        <labl>Head/householder</labl>
+      </catgry>
+      <catgry>
+        <catValu>0201</catValu>
+        <labl>Spouse</labl>
+      </catgry>
+      <catgry>
+        <catValu>0202</catValu>
+        <labl>Opposite sex spouse</labl>
+      </catgry>
+      <catgry>
+        <catValu>0203</catValu>
+        <labl>Same sex spouse</labl>
+      </catgry>
+      <catgry>
+        <catValu>0301</catValu>
+        <labl>Child</labl>
+      </catgry>
+      <catgry>
+        <catValu>0303</catValu>
+        <labl>Stepchild</labl>
+      </catgry>
+      <catgry>
+        <catValu>0501</catValu>
+        <labl>Parent</labl>
+      </catgry>
+      <catgry>
+        <catValu>0701</catValu>
+        <labl>Sibling</labl>
+      </catgry>
+      <catgry>
+        <catValu>0901</catValu>
+        <labl>Grandchild</labl>
+      </catgry>
+      <catgry>
+        <catValu>1001</catValu>
+        <labl>Other relatives, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>1113</catValu>
+        <labl>Partner/roommate</labl>
+      </catgry>
+      <catgry>
+        <catValu>1114</catValu>
+        <labl>Unmarried partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>1116</catValu>
+        <labl>Opposite sex unmarried partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>1117</catValu>
+        <labl>Same sex unmarried partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>1115</catValu>
+        <labl>Housemate/roomate</labl>
+      </catgry>
+      <catgry>
+        <catValu>1241</catValu>
+        <labl>Roomer/boarder/lodger</labl>
+      </catgry>
+      <catgry>
+        <catValu>1242</catValu>
+        <labl>Foster children</labl>
+      </catgry>
+      <catgry>
+        <catValu>1260</catValu>
+        <labl>Other nonrelatives</labl>
+      </catgry>
+      <catgry>
+        <catValu>9100</catValu>
+        <labl>Armed Forces, relationship unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>9200</catValu>
+        <labl>Age under 14, relationship unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>9900</catValu>
+        <labl>Relationship unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>9999</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AGE" dcml="0" files="ExtractData" intrvl="discrete" name="AGE">
+      <location EndPos="78" StartPos="77" width="2"/>
+      <labl>Age</labl>
+      <txt><![CDATA[Age gives each person's age at last birthday.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>Under 1 year</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>1</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>2</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>3</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>4</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>6</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>7</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>8</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>9</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>10</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>11</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>12</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>13</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>14</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>15</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>16</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>17</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>18</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>19</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>20</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>21</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>22</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>23</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>24</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>25</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>26</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>27</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>28</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>29</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>30</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>31</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>32</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>33</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>34</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>35</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>36</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>37</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>38</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>39</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>40</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>41</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>42</labl>
+      </catgry>
+      <catgry>
+        <catValu>43</catValu>
+        <labl>43</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>44</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>45</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>46</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>47</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>48</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>49</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>50</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>51</labl>
+      </catgry>
+      <catgry>
+        <catValu>52</catValu>
+        <labl>52</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>53</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>54</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>55</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>56</labl>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>57</labl>
+      </catgry>
+      <catgry>
+        <catValu>58</catValu>
+        <labl>58</labl>
+      </catgry>
+      <catgry>
+        <catValu>59</catValu>
+        <labl>59</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>60</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>61</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>62</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>63</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>64</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>65</labl>
+      </catgry>
+      <catgry>
+        <catValu>66</catValu>
+        <labl>66</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>67</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>68</labl>
+      </catgry>
+      <catgry>
+        <catValu>69</catValu>
+        <labl>69</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>70</labl>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>71</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>72</labl>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>73</labl>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>74</labl>
+      </catgry>
+      <catgry>
+        <catValu>75</catValu>
+        <labl>75</labl>
+      </catgry>
+      <catgry>
+        <catValu>76</catValu>
+        <labl>76</labl>
+      </catgry>
+      <catgry>
+        <catValu>77</catValu>
+        <labl>77</labl>
+      </catgry>
+      <catgry>
+        <catValu>78</catValu>
+        <labl>78</labl>
+      </catgry>
+      <catgry>
+        <catValu>79</catValu>
+        <labl>79</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>80</labl>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>81</labl>
+      </catgry>
+      <catgry>
+        <catValu>82</catValu>
+        <labl>82</labl>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>83</labl>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>84</labl>
+      </catgry>
+      <catgry>
+        <catValu>85</catValu>
+        <labl>85</labl>
+      </catgry>
+      <catgry>
+        <catValu>86</catValu>
+        <labl>86</labl>
+      </catgry>
+      <catgry>
+        <catValu>87</catValu>
+        <labl>87</labl>
+      </catgry>
+      <catgry>
+        <catValu>88</catValu>
+        <labl>88</labl>
+      </catgry>
+      <catgry>
+        <catValu>89</catValu>
+        <labl>89</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>90 (90+, 1988-2002)</labl>
+      </catgry>
+      <catgry>
+        <catValu>91</catValu>
+        <labl>91</labl>
+      </catgry>
+      <catgry>
+        <catValu>92</catValu>
+        <labl>92</labl>
+      </catgry>
+      <catgry>
+        <catValu>93</catValu>
+        <labl>93</labl>
+      </catgry>
+      <catgry>
+        <catValu>94</catValu>
+        <labl>94</labl>
+      </catgry>
+      <catgry>
+        <catValu>95</catValu>
+        <labl>95</labl>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>96</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>97</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>98</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>99+</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SEX" dcml="0" files="ExtractData" intrvl="discrete" name="SEX">
+      <location EndPos="79" StartPos="79" width="1"/>
+      <labl>Sex</labl>
+      <txt><![CDATA[SEX gives each person's sex.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Male</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Female</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="RACE" dcml="0" files="ExtractData" intrvl="discrete" name="RACE">
+      <location EndPos="82" StartPos="80" width="3"/>
+      <labl>Race</labl>
+      <txt><![CDATA[Racial categories in the CPS have been more consistent than racial categories in the census.  Up through 2002, the number of race categories ranged from 3 (white, negro, and other) to 5 (white, black, American Indian/Eskimo/Aleut, Asian or Pacific Islander, and other).   Beginning in 2003, respondents could report more than one race, and the number of codes rose to 21, and then up to 26 codes in 2013.]]></txt>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>200</catValu>
+        <labl>Black/Negro</labl>
+      </catgry>
+      <catgry>
+        <catValu>300</catValu>
+        <labl>American Indian/Aleut/Eskimo</labl>
+      </catgry>
+      <catgry>
+        <catValu>650</catValu>
+        <labl>Asian or Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>651</catValu>
+        <labl>Asian only</labl>
+      </catgry>
+      <catgry>
+        <catValu>652</catValu>
+        <labl>Hawaiian/Pacific Islander only</labl>
+      </catgry>
+      <catgry>
+        <catValu>700</catValu>
+        <labl>Other (single) race, n.e.c.</labl>
+      </catgry>
+      <catgry>
+        <catValu>801</catValu>
+        <labl>White-Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>802</catValu>
+        <labl>White-American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>803</catValu>
+        <labl>White-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>804</catValu>
+        <labl>White-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>805</catValu>
+        <labl>Black-American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>806</catValu>
+        <labl>Black-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>807</catValu>
+        <labl>Black-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>808</catValu>
+        <labl>American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>809</catValu>
+        <labl>Asian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>810</catValu>
+        <labl>White-Black-American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>811</catValu>
+        <labl>White-Black-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>812</catValu>
+        <labl>White-American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>813</catValu>
+        <labl>White-Asian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>814</catValu>
+        <labl>White-Black-American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>815</catValu>
+        <labl>American Indian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>816</catValu>
+        <labl>White-Black--Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>817</catValu>
+        <labl>White-American Indian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>818</catValu>
+        <labl>Black-American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>819</catValu>
+        <labl>White-American Indian-Asian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>820</catValu>
+        <labl>Two or three races, unspecified</labl>
+      </catgry>
+      <catgry>
+        <catValu>830</catValu>
+        <labl>Four or five races, unspecified</labl>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Blank</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MARST" dcml="0" files="ExtractData" intrvl="discrete" name="MARST">
+      <location EndPos="83" StartPos="83" width="1"/>
+      <labl>Marital status</labl>
+      <txt><![CDATA[MARST gives each person's current marital status, including whether the spouse was currently living in the same household.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Married, spouse present</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Married, spouse absent</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Separated</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Divorced</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Widowed</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Never married/single</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Widowed or Divorced</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SPRULE" dcml="0" files="ExtractData" intrvl="discrete" name="SPRULE">
+      <location EndPos="85" StartPos="84" width="2"/>
+      <labl>Rule for linking spouse</labl>
+      <txt><![CDATA[SPRULE is a constructed variable that indicates the method by which the probable spouse/partner link shown in SPLOC was identified.  
+
+The IPUMS family interrelationship variables address two types of ambiguity when forming links. First, we prioritize links based on how clear the relationship is between the two people being linked. Second, we use a series of logical steps to select between multiple potential spouses. SPRULE is a two digit variables that show how these two types of ambiguity were addressed when forming a spousal link. The first digit indicates how direct the relationship is between the two people and the second digit indicates if the link was selected among multiple options and, if so, how it was selected.
+
+We first prioritize links within a household based how clear the relationship is between the two people being linked (using RELATE). The priority of the link is captured in the first digit of SPRULE. Except for links between a householder and an unmarried partner, a person must be "married, spouse present" according to MARST in order to have a non-zero value for SPLOC.
+
+Direct links: 
+Spouse rule value: 1- 
+
+Householder to Spouse
+
+Parent to Parent
+
+Housemate to Housemate
+
+Roomer to Roomer
+
+Non-relative to Non-relative
+2nd level links
+Spouse rule value: 2-]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>No spouse link</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Rule 11 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Rule 12 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Rule 13 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Rule 14 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Rule 15 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Rule 16 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Rule 21 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Rule 22 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Rule 23 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>Rule 24 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>Rule 25 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>Rule 26 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>Rule 31 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>Rule 32 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>Rule 33 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>Rule 34 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>Rule 35 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>Rule 36 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>Rule 41 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>Rule 42 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>43</catValu>
+        <labl>Rule 43 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>Rule 44 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>Rule 45 is used to identify spouse/partner</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>Rule 46 is used to identify spouse/partner</labl>
+      </catgry>
+      <concept vocab="IPUMS">Family Interrelationships Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FAMSIZE" dcml="0" files="ExtractData" intrvl="discrete" name="FAMSIZE">
+      <location EndPos="87" StartPos="86" width="2"/>
+      <labl>Number of own family members in hh</labl>
+      <txt><![CDATA[FAMSIZE counts the number of own family members residing with each individual, including the person her/himself. Persons not living with others related to them by blood, marriage, or adoption are coded 1.
+
+Note that FAMSIZE is an IPUMS-derived variable using IPUMS-derived family interrelationships, which will not necessarily correspond to the Census Bureau's family definitions. See FTYPE, FAMKIND, and FAMREL for variables that correspond to Census family units. IPUMS does not currently offer a corresponding variable for the size of the Census family unit, but variables necessitating this information such as POVERTY already take the Census family unit size into account.
+
+An Introduction to the Family Interrelationship Variables can be found on IPUMS-USA. On this page you'll find information on how IPUMS family interrelationship variables are constructed, common uses of these variables, and specific examples of how these variables can be used efficiently.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>Missing</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>1 family member present</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>2 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>3 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>4 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>6 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>7 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>8 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>9 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>10 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>11 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>12 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>13 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>14 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>15 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>16 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>17 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>18 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>19 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>20 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>21 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>22 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>23 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>24 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>25 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>26 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>27 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>28 family members present</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>29 family members present</labl>
+      </catgry>
+      <concept vocab="IPUMS">Family Interrelationships Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="NCHILD" dcml="0" files="ExtractData" intrvl="discrete" name="NCHILD">
+      <location EndPos="88" StartPos="88" width="1"/>
+      <labl>Number of own children in household</labl>
+      <txt><![CDATA[NCHILD counts the number of own children (of any age or marital status) residing with each individual. NCHILD includes step-children and adopted children as well as biological children. Persons with no children present are coded 0.
+
+Note that NCHILD is an IPUMS-derived variable using IPUMS-derived family interrelationships. Thus NCHILD may differ from any family information that comes from just the Census family definitions. See for example FTYPE, FAMKIND, and FAMREL for more on Census family units.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>0 children present</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>1 child present</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>2</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>3</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>4</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>5</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>6</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>7</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>8</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>9+</labl>
+      </catgry>
+      <concept vocab="IPUMS">Family Interrelationships Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HISPAN" dcml="0" files="ExtractData" intrvl="discrete" name="HISPAN">
+      <location EndPos="91" StartPos="89" width="3"/>
+      <labl>Hispanic origin</labl>
+      <txt><![CDATA[HISPAN identifies and classifies persons of Hispanic/Spanish/Latino origin.  Origin is ancestry, lineage, heritage, national group, or country of birth.   
+
+Prior to 2003, information was collected by asking, "What is the origin or descent of each person in this household?" and asking the respondent to select the appropriate category from a limited number of choices on a flashcard (including "another group not listed.")   The choices included five to eight choices that would be classified as Hispanic, "Negro" and "Black," and a small number of European ancestry groups such as "German."  
+
+The primary intention of the question was to identify Hispanic respondents, rather than origin or descent for the general population.  Beginning in 1976, the original CPS data preserved detail for only the Hispanic responses, with all others answers lumped together as "another group not listed" (relabeled "Not Hispanic" in IPUMS-CPS). 
+
+In 2003 and later years, respondents were asked, "Are you Spanish, Hispanic, or Latino?" rather than the broad query about origin or descent.  Detailed information about Hispanic ethnicity was collected only from those who answered "yes" to this initial question.]]></txt>
+      <catgry>
+        <catValu>000</catValu>
+        <labl>Not Hispanic</labl>
+      </catgry>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>Mexican</labl>
+      </catgry>
+      <catgry>
+        <catValu>102</catValu>
+        <labl>Mexican American</labl>
+      </catgry>
+      <catgry>
+        <catValu>103</catValu>
+        <labl>Mexicano/Mexicana</labl>
+      </catgry>
+      <catgry>
+        <catValu>104</catValu>
+        <labl>Chicano/Chicana</labl>
+      </catgry>
+      <catgry>
+        <catValu>108</catValu>
+        <labl>Mexican (Mexicano)</labl>
+      </catgry>
+      <catgry>
+        <catValu>109</catValu>
+        <labl>Mexicano/Chicano</labl>
+      </catgry>
+      <catgry>
+        <catValu>200</catValu>
+        <labl>Puerto Rican</labl>
+      </catgry>
+      <catgry>
+        <catValu>300</catValu>
+        <labl>Cuban</labl>
+      </catgry>
+      <catgry>
+        <catValu>400</catValu>
+        <labl>Dominican</labl>
+      </catgry>
+      <catgry>
+        <catValu>500</catValu>
+        <labl>Salvadoran</labl>
+      </catgry>
+      <catgry>
+        <catValu>600</catValu>
+        <labl>Other Hispanic</labl>
+      </catgry>
+      <catgry>
+        <catValu>610</catValu>
+        <labl>Central/South American</labl>
+      </catgry>
+      <catgry>
+        <catValu>611</catValu>
+        <labl>Central American, (excluding Salvadoran)</labl>
+      </catgry>
+      <catgry>
+        <catValu>612</catValu>
+        <labl>South American</labl>
+      </catgry>
+      <catgry>
+        <catValu>901</catValu>
+        <labl>Do not know</labl>
+      </catgry>
+      <catgry>
+        <catValu>902</catValu>
+        <labl>N/A (and no response 1985-87)</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FTOTVAL" dcml="0" files="ExtractData" intrvl="contin" name="FTOTVAL">
+      <location EndPos="101" StartPos="92" width="10"/>
+      <labl>Total family income</labl>
+      <txt><![CDATA[FTOTVAL reports the total income for the respondent's family. Amounts are expressed as they were reported to the interviewer (i.e., in the survey year's dollar amounts). Users may want to adjust for inflation using Consumer Price Index adjustment factors. (FTOTVAL relies on Census-defined families. For more on Census families see FTYPE and FAMREL. This is a different definition from IPUMS-derived families as in FAMUNIT).]]></txt>
+      <codInstr><![CDATA[CodesNote: Values are as they appear in the original CPS data. Top-codes, bottom-codes, and NIU codes have not been harmonized by IPUMS.
+
+999999999 = NIU 
+
+1968-1975
+50000 = Top Code (50,000 and greater)
+
+Values in all years can be negative.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCTOT" dcml="0" files="ExtractData" intrvl="contin" name="INCTOT">
+      <location EndPos="110" StartPos="102" width="9"/>
+      <labl>Total personal income</labl>
+      <txt><![CDATA[INCTOT indicates each respondent's total pre-tax personal income or losses from all sources for the previous calendar year.  Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999999 = N.I.U.
+999999998 = Missing. (1962-1964 only)
+Values can be negative.
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCWAGE" dcml="0" files="ExtractData" intrvl="contin" name="INCWAGE">
+      <location EndPos="118" StartPos="111" width="8"/>
+      <labl>Wage and salary income</labl>
+      <txt><![CDATA[INCWAGE indicates each respondent's total pre-tax wage and salary income--that is, money received as an employee--for the previous calendar year.  Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors. 
+
+For ASEC samples 1988-onward, INCWAGE is derived from a Census recode variable.  The topcoded components of INCWAGE are OINCWAGE and INCLONGJ.  OINCWAGE  is always a component of INCWAGE.  When SRCEARN indicates that INCLONGJ is earned from wage and salary, INCLONGJ is an additional component of INCWAGE.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe)
+99999998 = Missing (1962-1966 only)
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCBUS" dcml="0" files="ExtractData" intrvl="contin" name="INCBUS">
+      <location EndPos="126" StartPos="119" width="8"/>
+      <labl>Non-farm business income</labl>
+      <txt><![CDATA[INCBUS indicates each respondent's net pre-income-tax non-farm business and/or professional practice income for the previous calendar year.  INCBUS is reported for self-employed persons; employees' earnings are given in INCWAGE.   
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors. 
+
+For ASEC samples 1988-onward, INCBUS is derived from a Census recode variable.  The topcoded components of INCBUS are OINCBUS and INCLONGJ.  OINCBUS  is always a component of INCBUS.  When SRCEARN indicates that INCLONGJ is earned from self-employment, INCLONGJ is an additional component of INCBUS.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).
+99999998 = Missing. (1962-1964 only)
+Values can be negative.
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCFARM" dcml="0" files="ExtractData" intrvl="contin" name="INCFARM">
+      <location EndPos="134" StartPos="127" width="8"/>
+      <labl>Farm income</labl>
+      <txt><![CDATA[INCFARM indicates each respondent's net pre-income-tax earnings as a tenant farmer, sharecropper, or operator of his or her own farm during the previous calendar year.  INCFARM collects income information for self-employed persons who had their own farms.  Income earned as an employee on a farm is contained in the variable INCWAGE.  
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors. 
+
+For ASEC samples 1988-onward, INCFARM is derived from a Census recode variable.  The topcoded components of INCFARM are OINCFARM and INCLONGJ.  OINCFARM  is always a component of INCFARM.  When SRCEARN indicates that INCLONGJ is earned from farm self-employment, INCLONGJ is an additional component of INCFARM.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe)
+99999998 = Missing (1962-1964 only)
+Values can be negative.
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCSS" dcml="0" files="ExtractData" intrvl="contin" name="INCSS">
+      <location EndPos="140" StartPos="135" width="6"/>
+      <labl>Social Security income</labl>
+      <txt><![CDATA[INCSS indicates how much pre-tax income (if any) the respondent received from Social Security or U.S. government Railroad Retirement insurance payments (for 1968-1979) or from Social Security payments exclusively (1980 forward).  
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCWELFR" dcml="0" files="ExtractData" intrvl="contin" name="INCWELFR">
+      <location EndPos="146" StartPos="141" width="6"/>
+      <labl>Welfare (public assistance) income</labl>
+      <txt><![CDATA[INCWELFR indicates how much pre-tax income (if any) the respondent received during the previous calendar year from various public assistance programs commonly referred to as "welfare."
+
+Totals are given as they were reported to CPS interviewers; users must adjust for the effects of inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCRETIR" dcml="0" files="ExtractData" intrvl="contin" name="INCRETIR">
+      <location EndPos="154" StartPos="147" width="8"/>
+      <labl>Retirement income</labl>
+      <txt><![CDATA[INCRETIR indicates how much pre-tax income (if any) the respondent received from all retirement income sources during the past year. Pension or retirement income from a previous employer or union, or from other retirement income (excluding Social Security and Veterans' Administration payments) are included as sources prior to 2019. During this period, the survey questionnaire listed the following types of retirement income: company or union pension, including profit sharing; annuities; U.S. military retirement; federal government employee pensions; state or local government employee pensions; U.S. Railroad Retirement; regular payments from annuities or paid-up insurance policies; and other sources such as IRA or KEOUGH accounts. 
+
+Beginning in 2019, income from retirement accounts, pension plans, and annuities are split into separate variables. INCRETIR includes only income from retirement accounts, and not pension plans or annuities. Retirement account income from 401k, 403b, Roth IRA, regular IRA, KEOGH, and Simplified Employee Pension (SEP) plans are included.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCSSI" dcml="0" files="ExtractData" intrvl="contin" name="INCSSI">
+      <location EndPos="160" StartPos="155" width="6"/>
+      <labl>Income from SSI</labl>
+      <txt><![CDATA[INCSSI indicates how much pre-tax income (if any) the respondent received from Supplemental Security Income (SSI) during the previous calendar year.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCINT" dcml="0" files="ExtractData" intrvl="contin" name="INCINT">
+      <location EndPos="167" StartPos="161" width="7"/>
+      <labl>Income from interest</labl>
+      <txt><![CDATA[INCINT indicates how much pre-tax income (if any) the respondent received from  interest on saving accounts, certificates of deposit, money market funds, bonds, treasury notes, IRAs, and/or other investments which paid interest.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCUNEMP" dcml="0" files="ExtractData" intrvl="contin" name="INCUNEMP">
+      <location EndPos="173" StartPos="168" width="6"/>
+      <labl>Income from unemployment benefits</labl>
+      <txt><![CDATA[INCUNEMP indicates how much pre-tax income (if any) the respondent received from state or federal unemployment compensation, Supplemental Unemployment Benefits (SUB), or union unemployment or strike benefits during the previous calendar year.  
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe)
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCWKCOM" dcml="0" files="ExtractData" intrvl="contin" name="INCWKCOM">
+      <location EndPos="179" StartPos="174" width="6"/>
+      <labl>Income from worker's compensation</labl>
+      <txt><![CDATA[INCWKCOM indicates how much pre-tax income (if any) the respondent received from worker's compensation payments or other payments as a result as a job-related injury or illness.  Income from sick pay and disability retirement were not counted as income under INCWKCOM.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCVET" dcml="0" files="ExtractData" intrvl="contin" name="INCVET">
+      <location EndPos="186" StartPos="180" width="7"/>
+      <labl>Income from veteran's benefits</labl>
+      <txt><![CDATA[INCVET indicates how much pre-tax income (if any) the respondent received from payments from the Veterans' Administration (VA) during the previous calendar year.  Such payments could include service-related disability compensation, survivor benefits, pension, educational allowance, or other veteran payments.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCSURV" dcml="0" files="ExtractData" intrvl="contin" name="INCSURV">
+      <location EndPos="193" StartPos="187" width="7"/>
+      <labl>Income from survivor's benefits</labl>
+      <txt><![CDATA[INCSURV indicates how much pre-tax income (if any) the respondent received from survivors' benefits during the previous calendar year.  Such payments could include the following: company or union survivor pension; federal government civil service pension; U.S. military retirement survivor pension; state or local government survivor pension; worker's compensation survivor pension; black lung survivor pension; regular payments from an estate or trust; and regular payments from annuities or paid-up insurance policies.  Social Security and Veterans' Administration payments were specifically excluded from this category; payments from these sources are given in INCSS and INCVET, respectively.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCDISAB" dcml="0" files="ExtractData" intrvl="contin" name="INCDISAB">
+      <location EndPos="200" StartPos="194" width="7"/>
+      <labl>Income from disability benefits</labl>
+      <txt><![CDATA[INCDISAB indicates how much pre-tax income (if any) the respondent received from disability income during the previous calendar year.   
+
+CPS interviewers asked about income as a result of disability only if at least one member of the household had "a health condition or disability which prevents them from working or which limits the kind or amount of work they can do" or had "ever retired or left a job for health reasons."  If the answer was affirmative, the interviewer asked which household member (or members) had such a health condition and whether this person received income as a result of this health condition, disability, or handicap.
+
+Income due to disability could come from the following sources: worker's compensation; company or union disability; federal government civil service disability; U.S. military retirement disability; state or local government employee disability; U.S. Railroad Retirement disability; accident or disability insurance; black lung miner's disability; or state temporary sickness payments. Income from Social Security and payments from the Veterans' Administration were not included in INCDISAB; such payments were included in INCSS and INCVET, respectively.  
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCDIVID" dcml="0" files="ExtractData" intrvl="contin" name="INCDIVID">
+      <location EndPos="207" StartPos="201" width="7"/>
+      <labl>Income from dividends</labl>
+      <txt><![CDATA[INCDIVID indicates how much pre-tax income (if any) the respondent received from stocks and mutual funds during the previous calendar year.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCRENT" dcml="0" files="ExtractData" intrvl="contin" name="INCRENT">
+      <location EndPos="214" StartPos="208" width="7"/>
+      <labl>Income from rent</labl>
+      <txt><![CDATA[INCRENT indicates how much pre-tax income (if any) the respondent received from rent (after expenses), from charges to roomers or boarders, and from money paid by estates, trusts, and royalties, during the previous calendar year.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCEDUC" dcml="0" files="ExtractData" intrvl="contin" name="INCEDUC">
+      <location EndPos="220" StartPos="215" width="6"/>
+      <labl>Income from educational assistance</labl>
+      <txt><![CDATA[INCEDUC indicates how much pre-tax income (if any) the respondent received from educational assistance during the previous calendar year.  This variable relates to education beyond the high school level, including college, university, or vocational, business, or trade school.  The financial aid could cover tuition, fees, books, or living expenses while attending school.  
+
+Educational assistance includes Pell Grants or other aid from government sources, non-governmental scholarships and grants, and financial assistance from employers or friends (excluding household members).  Educational benefits from the Veteran's Administration are included in INCVET rather than INCEDUC.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCCHILD" dcml="0" files="ExtractData" intrvl="contin" name="INCCHILD">
+      <location EndPos="226" StartPos="221" width="6"/>
+      <labl>Income from child support</labl>
+      <txt><![CDATA[INCCHILD indicates how much pre-tax income (if any) the respondent received from child support payments during the previous calendar year. 
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCASIST" dcml="0" files="ExtractData" intrvl="contin" name="INCASIST">
+      <location EndPos="233" StartPos="227" width="7"/>
+      <labl>Income from assistance</labl>
+      <txt><![CDATA[INCASIST indicates how much pre-tax income (if any) the respondent received during the previous calendar year from regular financial assistance from friends or relatives not living in the same household. 
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCOTHER" dcml="0" files="ExtractData" intrvl="contin" name="INCOTHER">
+      <location EndPos="240" StartPos="234" width="7"/>
+      <labl>Income from other Source not specified</labl>
+      <txt><![CDATA[INCOTHER is a residual category for pre-tax income for the previous calendar year that was not reported in other, more specific, income variables.  Small amounts of income from hobbies, severance pay, and foster child care payments are included in INCOTHER, as is any income that respondents failed to report earlier in the interview.  
+
+INCOTHER covers income not captured in the variables INCWAGE, INCBUS, INCFARM, INCSS, INCWELFR, INCRETIR, INCSSI, INCINT, INCUNEMP, INCWKCOM, INCVET, INCSURV, INCDISAB, INCRENT, INCDIVID, INCEDUC, INCCHILD, INCALIM, and INCASIST.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCLONGJ" dcml="0" files="ExtractData" intrvl="contin" name="INCLONGJ">
+      <location EndPos="248" StartPos="241" width="8"/>
+      <labl>Earnings from longest job</labl>
+      <txt><![CDATA[INCLONGJ reports the net amount (prior to deductions) that the respondent earned from the job held for the longest time during the preceding calendar year.  Whether such income derived from wages or salary or from self-employment in a business or farm is specified in SRCEARN.
+
+Most income variables included in IPUMS-CPS report the total amount earned from a specific source (e.g., wages and salary) during the preceding calendar year.  INCLONGJ, by contrast, does not necessarily include income earned during the entire calendar year.  Imagine that an individual worked at one job for eight months, earning $10,000 in wages, and then worked for four months at two different jobs, earning an additional $5000 in wages.  Wages from the longest-held job (in this case, $10,000) would be reported in INCLONGJ.  Wage and salary income from the two jobs other than the longest-held job (in this case, $5,000) would be reported in OINCWAGE. Total earnings from wages for this person (in this case, $15,000, accrued in three different jobs) would be reported in INCWAGE.  If, however, a wage-earner worked at a single job during the preceding calendar year, the amounts reported in INCLONGJ and INCWAGE would be the same. 
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors. 
+
+Values may be negative.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="OINCBUS" dcml="0" files="ExtractData" intrvl="contin" name="OINCBUS">
+      <location EndPos="255" StartPos="249" width="7"/>
+      <labl>Earnings from other work included business self-employment earnings</labl>
+      <txt><![CDATA[OINCBUS reports net earnings from self-employment in a non-farm business, if this self-employment did not constitute the respondent's longest-held job during the previous calendar year.  The amount earned (in wages, salary, or earnings from self-employment in a business or farm) from the longest-held job during the preceding calendar year is reported in INCLONGJ.     
+
+Imagine that a self-employed individual worked in one non-farm own business for eight months, netting $10,000 in earnings, and worked in two other non-farm own businesses for the remaining 4 months, netting an additional $12,000 in earnings.  The $12,000 in "other" net self-employment earnings (from work outside the person's primary, or longest-held, job) would be reported in OINCBUS; the $10,000 in net earnings from the individual's longest-held job would be reported in INCLONGJ; and the total amount of net self-employed non-farm business earnings from the previous calendar year ($22,000) would be reported in INCBUS.  
+
+Imagine, instead, that as reported in SRCEARN, an individual worked as an employee earning wages for the primary job, but earned additional income working part of the year in their own non-farm businesses.  In such a case, wage income from the primary job would be reported in INCLONGJ; all self-employed non-farm net business earnings would be reported in OINCBUS; and the value of OINCBUS and INCBUS would be the same.   
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="OINCFARM" dcml="0" files="ExtractData" intrvl="contin" name="OINCFARM">
+      <location EndPos="263" StartPos="256" width="8"/>
+      <labl>Earnings from other work included farm self-employment earnings</labl>
+      <txt><![CDATA[OINCFARM reports net earnings as a tenant farmer, sharecropper, or operator of one's own farm during the previous calendar year, if such work did not constitute the longest-held job during that period.  The amount earned (in wages, salary, or earnings from self-employment in a business or farm) from the longest-held job during the preceding calendar year is reported in INCLONGJ.     
+
+Imagine that an individual considered raising crops on her own land to be her primary job, and considered money earned by harvesting crops on another farmer's land for a few days, using her own equipment, to be a secondary "own farm" job.  In such a case, net earnings from the sale of  her own crops would be reported as income in INCLONGJ; earnings from harvesting crops for another farmer would be reported as "other" self-employed own farm income in OINCFARM; and the sum of earnings from crop sales and farm equipment rental would constitute INCFARM.  If, instead, she grouped together all net earnings from crop sales and income generated from the use of her equipment into a single "own farm" business, all of this net farm income would be reported in both INCLONGJ and INCFARM, and the value of OINCFARM would be zero.  
+
+Imagine, instead, that as reported in SRCEARN, an individual worked as an employee earning wages for the primary job, but earned additional income working part of the year on their own farm.  In such a case, wage income from the primary job would be reported in INCLONGJ; all self-employed farm net business earnings would be reported in OINCFARM; and the value of OINCFARM and INCFARM would be the same.   
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="OINCWAGE" dcml="0" files="ExtractData" intrvl="contin" name="OINCWAGE">
+      <location EndPos="271" StartPos="264" width="8"/>
+      <labl>Earnings from other work included wage and salary earnings</labl>
+      <txt><![CDATA[OINCWAGE reports the net amount (prior to deductions) that the respondent earned in wages and salary, other than the amount earned in the primary (longest-held) job, during the preceding calendar year.  The amount earned (in wages, salary, or earnings from self-employment in a business or farm) from the longest held job during the preceding calendar year is reported in INCLONGJ.
+
+Imagine that an individual worked at one job for 8 months, earning $10,000 in wages, and worked at two other jobs for the remaining 4 months, earning $12,000 in wages.  The $12,000 in "other" wage and salary earnings (wages and salary from jobs other than the person's primary, or longest-held, job) would be reported in OINCWAGE; the $10,000 in wages from the individual's longest-held job would be reported in INCLONGJ; and the total amount of wage and salary income from the previous calendar year ($22,000) would be reported in INCWAGE.
+
+Imagine, instead, that as reported in SRCEARN, an individual was self-employed in a business or farm for their primary job, and also worked one or more additional jobs for wages. In such a case, self-employment income from the primary job would be reported in INCLONGJ; all wage and salary earnings would be reported in OINCWAGE, and the value of OINCWAGE and INCWAGE would be the same.  
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCCAPG" dcml="0" files="ExtractData" intrvl="contin" name="INCCAPG">
+      <location EndPos="278" StartPos="272" width="7"/>
+      <labl>Capital gains received from shares of stocks or mutual funds last year</labl>
+      <txt><![CDATA[INCCAPG reports the amount of capital gains the respondent earned from shares of stock or mutual funds for those age 15 and older who received dividend income during the previous year.]]></txt>
+      <codInstr><![CDATA[INCCAPG is a 7-digit numeric variable.
+
+		
+Codes9999999 = NIU
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SRCEARN" dcml="0" files="ExtractData" intrvl="discrete" name="SRCEARN">
+      <location EndPos="279" StartPos="279" width="1"/>
+      <labl>Source of earnings from longest job</labl>
+      <txt><![CDATA[SRCEARN reports the source of income (from wages and salary, self-employment, farm self-employment, or working without pay) for the job that the respondent held for the longest time during the preceding calendar year.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Wage and salary</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Self employment</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Farm self employment</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Without pay</labl>
+      </catgry>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SSIKID" dcml="0" files="ExtractData" intrvl="discrete" name="SSIKID">
+      <location EndPos="280" StartPos="280" width="1"/>
+      <labl>Child under 18 received SSI income</labl>
+      <txt><![CDATA[SSIKID identifies "children" (in this case, persons under age 18) who received Supplemental Security Income (SSI) during the previous calendar year.  These recipients may have received SSI payments themselves directly as beneficiaries, or the payments may have been made to a parent or guardian on behalf of the child beneficiary. 
+
+While the ASEC CPS for these years generally defined "children" as persons under age 15, government programs such as SSI use the more common definition of "child" as persons under age 18 when defining eligibility for benefits.  Thus, some of the "children" identified in SSIKID as the beneficiaries of SSI would be defined as "adults" by other CPS variables, such as POPSTAT.  
+
+Persons under age 18 may qualify for SSI on the basis of being blind, severely disabled, or for other reasons, such as living with an SSI-eligible parent (SSI Caretaker Supplement benefits).  Children with disabilities qualify for SSI payments only if the income and resources of the child and co-resident family members fall within eligibility limits.  By contrast, only the income and resources of the individual are evaluated when deciding whether an adult (age 18 and over) meets the financial limits for SSI.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SSKID" dcml="0" files="ExtractData" intrvl="discrete" name="SSKID">
+      <location EndPos="281" StartPos="281" width="1"/>
+      <labl>Child under 19 received SS income</labl>
+      <txt><![CDATA[SSKID identifies "children" (in this case, persons under age 19) who received Social Security Income during the previous calendar year. These recipients may have received Social Security payments themselves directly as beneficiaries, or the payments may have been made to a parent or guardian on behalf of the child beneficiary.
+
+While the ASEC CPS for these years generally defined "children" as persons under age 15, Social Security uses a broader definition of "child." Thus, for example, persons can qualify for benefits as "children" under Social Security's eligibility rules if they are unmarried and under age 18 or are unmarried, under age 19, and attending secondary school full-time. Thus, some of the "children" identified in SSKID as the beneficiaries of Social Security would be defined as "adults" by other CPS variables, such as POPSTAT.
+
+To qualify for Social Security child's benefits, a child must have a parent who is disabled or retired and entitled to Social Security benefits or a parent who died after having worked long enough in a job where he or she paid Social Security taxes.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Yes</labl>
+      </catgry>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CTCCRD" dcml="0" files="ExtractData" intrvl="contin" name="CTCCRD">
+      <location EndPos="287" StartPos="282" width="6"/>
+      <labl>Child Tax Credit</labl>
+      <txt><![CDATA[CTCCRD indicates the dollar amount the respondent received from the Child Tax Credit. This tax credit may be worth as much as $1,000 per qualifying child depending upon your income. A child qualifies for this credit if they meet the relevant criteria of six test: age, relationship, support, dependent, citizenship and residence. See the IRS Tax Tip 2011-29, February 10, 2011 for more information.
+
+Amounts for CTCCRD are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation. Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ACTCCRD" dcml="0" files="ExtractData" intrvl="contin" name="ACTCCRD">
+      <location EndPos="292" StartPos="288" width="5"/>
+      <labl>Additional Child Tax Credit</labl>
+      <txt><![CDATA[ACTCCRD indicates the dollar amount the respondent received in Additional Child Tax Credit. An individual can claim the Additional Child Tax Credit in addition to the Child Tax Credit if the amount of the Child Tax Credit is greater than the amount of income tax owed by an individual. See the IRS Tax Tip 2011-29, February 10, 2011 for more information.
+
+Amounts for ACTCCRD are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation. Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ADJGINC" dcml="0" files="ExtractData" intrvl="contin" name="ADJGINC">
+      <location EndPos="300" StartPos="293" width="8"/>
+      <labl>Adjusted gross income</labl>
+      <txt><![CDATA[For income tax purposes, ADJGINC (Adjusted Gross Income) consists of an individual's total gross (pre-tax) income from taxable sources minus certain items, such as individual retirement plan contributions (payments to a Keogh plan or a deductible Individual Retirement Account), alimony paid, medical savings accounts, and non-reimbursed employee business expenses.  ADJGINC minus deductions and personal exemptions equals the individual's taxable income (TAXINC).
+
+ADJGINC, like other tax-related variables included in the ASEC CPS (CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FEDTAX, FICA, FILESTAT, MARGTAX, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.
+
+Amounts for ADJGINC are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EITCRED" dcml="0" files="ExtractData" intrvl="contin" name="EITCRED">
+      <location EndPos="304" StartPos="301" width="4"/>
+      <labl>Earned income tax credit</labl>
+      <txt><![CDATA[EITCRED represents the value of the Earned Income Tax Credit for an individual or couple filing a federal income tax return. The federal Earned Income Tax Credit (EITC) is a refundable tax credit that reduces or eliminates the amount of income tax that low-to moderate-income working people are required to pay, and it frequently operates as a wage subsidy for low-income workers.  If the amount of the credit exceeds the amount owed in federal income taxes, the difference is received as a cash payment. The value of the EITC depends on the amount of earned income and family size (e.g., whether a single-parent or two-parent family and number of dependent children).
+
+EITCRED, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, FEDRETIR, FEDTAX, FICA, FILESTAT, MARGTAX, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-186RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.
+
+Amounts for EITCRED are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FEDRETIR" dcml="0" files="ExtractData" intrvl="contin" name="FEDRETIR">
+      <location EndPos="310" StartPos="305" width="6"/>
+      <labl>Federal retirement payroll deduction</labl>
+      <txt><![CDATA[FEDRETIR reports the federal retirement payroll deduction of an individual filing federal income taxes.  This variable may be relevant only for workers employed by the federal government and may refer to the year's total retirement contributions withheld from such an individual's pay, to help fund retirement benefits via programs such as Civil Service Retirement or Federal Employees Retirement Systems.  Census Bureau documentation on this variable is particularly sparse; the IPUMS-CPS staff welcomes clarification of the meaning of this variable from users.
+
+FEDRETIR, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDTAX, FICA, FILESTAT, MARGTAX, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.
+
+Amounts for FEDRETIR are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+		
+Top codes:999997 = Topcode beginning in 2011 (original value was $999999).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FEDTAX" dcml="0" files="ExtractData" intrvl="contin" name="FEDTAX">
+      <location EndPos="318" StartPos="311" width="8"/>
+      <labl>Federal income tax liability, before credits</labl>
+      <txt><![CDATA[FEDTAX reports the federal income tax liability for an individual or for a couple filing a joint tax return.  The federal income tax on personal income provides for national programs such as defense, foreign affairs, law enforcement, and interest on the national debt.  "Federal income tax liability" means the amount of federal income tax, excluding any federal minimum alternative tax, taxpayers are required to pay.  A value of "00000" for this variable indicates no federal income tax liability.
+
+Beginning in 2005, FEDTAXAC is added to the data, which indicates the amount of federal tax liability, after tax credits are deducted.  On the other hand, FEDTAX indicates the amount of federal tax liability, before tax credits are deducted.  The credits include the additional child tax credit and the earned income tax credit.
+
+FEDTAX, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FICA, FILESTAT, MARGTAX, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.
+
+Amounts for FEDTAX are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FEDTAXAC" dcml="0" files="ExtractData" intrvl="contin" name="FEDTAXAC">
+      <location EndPos="326" StartPos="319" width="8"/>
+      <labl>Federal income tax liability, after all credits</labl>
+      <txt><![CDATA[FEDTAXAC indicates the amount of federal tax liability, after tax credits are deducted.  The credits include the additional child tax credit and the earned income tax credit.  For more information about these credits, see the Internal Revenue Service website.  FEDTAX  indicates the amount of federal tax liability, before tax credits are deducted.  Amounts are reported in dollars.
+
+Amounts for FEDTAXAC are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FICA" dcml="0" files="ExtractData" intrvl="contin" name="FICA">
+      <location EndPos="331" StartPos="327" width="5"/>
+      <labl>Social security retirement payroll deduction</labl>
+      <txt><![CDATA[FICA reports the total Social Security retirement payroll deductions for an individual or for a couple filing a joint tax return.  Social Security payroll taxes are collected under authority of the Federal Insurance Contributions Act (FICA).  Under this law, employers are required to withhold a share of employee wages and pay them to the government trust fund which provides benefits via Social Security.   FICA payroll taxes are thus both taxes and contributions to the social insurance system of Social Security, which funds retirement benefits, disability insurance, and survivor benefits.
+
+FICA, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FEDTAX, FILESTAT, MARGTAX, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.
+
+Amounts for FICA are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes99999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FILESTAT" dcml="0" files="ExtractData" intrvl="discrete" name="FILESTAT">
+      <location EndPos="332" StartPos="332" width="1"/>
+      <labl>Tax filer status</labl>
+      <txt><![CDATA[FILESTAT reports the federal income tax filing status (single, married filing jointly, head of household, and non-filer) for individuals.  For joint filers, the response categories are further determined by age (over 65 years of age, or younger than 65, for one or both of the filers).  
+
+Under IRS rules, an individual's tax filing status is partly determined by marital status on the last day of the year.  Unmarried persons and those who are legally separated or divorced, and who do not qualify for another filing status, must file as single.  With a few exceptions (i.e., those who were still married but who lived apart from their spouse for at least half the year), head of household filing status is reserved for persons who were not married and who paid for over half the cost of maintaining a home that also housed a dependent unmarried child, grandchild, or dependent parent.  Users should note that the "head of household" value for FILESTAT is not synonymous with identification as the household reference person in the RELATE (Relationship to head of household) variable.
+
+FILESTAT, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FEDTAX, FICA, MARGTAX, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>No data</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Joint, both less than 65</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Joint, one less than 65, one 65+</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Joint, both 65+</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Head of household</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Single</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Nonfiler</labl>
+      </catgry>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="DEPSTAT" dcml="0" files="ExtractData" intrvl="contin" name="DEPSTAT">
+      <location EndPos="334" StartPos="333" width="2"/>
+      <labl>Dependency status pointer</labl>
+      <txt><![CDATA[DEPSTAT is a dependency status pointer, which indicates a person line number of person who claimed the respondent as his/her dependent. Person line number values are available in the LINENO variable.  
+
+Data checking has revealed dramatic shifts across time in the proportion of persons who are dependent, which may indicate inaccuracies in the data.  Researchers should exercise caution in using DEPSTAT until the cause of these problems can be determined.]]></txt>
+      <codInstr><![CDATA[Codes00 = Not a dependent]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MARGTAX" dcml="0" files="ExtractData" intrvl="contin" name="MARGTAX">
+      <location EndPos="336" StartPos="335" width="2"/>
+      <labl>Federal income marginal tax rate</labl>
+      <txt><![CDATA[MARGTAX reports the Federal Income Marginal Tax Rate for an individual or for a couple filing a joint tax return.  The Marginal Tax Rate is the rate of tax imposed on an additional dollar of taxable income, or on the last dollar of taxable income.  If a person's marginal tax rate is 43 percent, they will net $0.57 for every dollar (after taxes, 100 percent less 43 percent).  Values for MARGTAX are 2-digits with an implicit decimal point before the first digit.  
+
+MARGTAX, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FEDTAX, FICA, FILESTAT, STATETAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.]]></txt>
+      <codInstr><![CDATA[Codes99 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STATETAX" dcml="0" files="ExtractData" intrvl="contin" name="STATETAX">
+      <location EndPos="343" StartPos="337" width="7"/>
+      <labl>State income tax liability, before credits</labl>
+      <txt><![CDATA[STATETAX reports the numerical state income tax liability of an individual or of a couple filing a joint tax return.  Tax provisions vary by state of residence.  Some states do not levy income taxes, while others allow individual cities to impose an additional income tax.  State tax provisions incorporated in the Census Bureau's tax model were based on the State Tax Handbook.
+
+Beginning in 2005, STATAXAC was added to the data, which indicates the amount of state tax liability, after tax credits are deducted.  On the other hand, STATETAX indicates the amount of state tax liability, before tax credits are deducted.  The credits include the additional child tax credit and the earned income tax credit.
+
+STATETAX, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FEDTAX, FICA, FILESTAT, MARGTAX, TAXINC, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.
+
+In 2004, STATETAX started reporting negative dollar values.
+
+Amounts for STATETAX are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STATAXAC" dcml="0" files="ExtractData" intrvl="contin" name="STATAXAC">
+      <location EndPos="350" StartPos="344" width="7"/>
+      <labl>State income tax liability, after all credits</labl>
+      <txt><![CDATA[STATAXAC indicates the amount of state tax liability, after tax credits are deducted.  The credits include the additional child tax credit and the earned income tax credit.  For more information about these credits, see the  Internal Revenue Service website. STATETAX  indicates the amount of state tax liability, before tax credits are deducted.  Amounts are reported in dollars. 
+
+Amounts for STATAXAC are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="TAXINC" dcml="0" files="ExtractData" intrvl="contin" name="TAXINC">
+      <location EndPos="357" StartPos="351" width="7"/>
+      <labl>Taxable income amount</labl>
+      <txt><![CDATA[For income tax purposes, TAXINC, or taxable income, consists of adjusted gross income (ADJGINC) minus allowable itemized deductions (or a standard allowance amount) and exemptions for the taxpayer and his or her dependents.  Taxable income is the amount used in the calculation of an individual's income tax liability.
+
+TAXINC, like other tax-related variables included in the ASEC CPS (ADJGINC, CAPGAIN, CAPLOSS, EITCRED, FEDRETIR, FEDTAX, FICA, FILESTAT, MARGTAX, STATETAX, and household level variable PROPTAX) was not determined by direct questioning of respondents.  Rather, values for these variables come from the Census Bureau's tax model, which simulates individual tax returns to produce estimates of federal, state, and payroll taxes.  The model incorporates information from non-CPS sources, such as the Internal Revenue Service's Statistics of Income series, the American Housing Survey, and the State Tax Handbook.  For more information about the model, see Current Population Reports, Series P60-18RD.  The IPUMS-CPS staff welcomes further information from users about the interpretation of this variable or other tax-related variables in the ASEC CPS.
+
+Amounts are expressed in dollars of the given year, rather than in constant dollars adjusted for inflation.  Users can adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+      <codInstr><![CDATA[Codes9999999 = N.I.U. (Not in Universe).
+
+		
+Top codes:99997 = Topcode through 2010 (original value was $99999).9999997 = Topcode beginning in 2011 (original value was $9999999).]]></codInstr>
+      <concept vocab="IPUMS">Tax Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>

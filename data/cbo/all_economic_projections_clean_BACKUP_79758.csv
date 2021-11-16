@@ -1,0 +1,47 @@
+﻿This file presents data that supplement CBO’s March 2021 report The 2021 Long-Term Budget Outlook.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Short-term Data Source: ,www.cbo.gov/publication/57218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Short-term Data Source: ,www.cbo.gov/publication/56977,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOTE: relevant 2015 and 2016 short-term data were taken from different CBO files than 2017-2031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Source file (short term data),17-Jun,18-Aug,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,21-Jul,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+category,subcategory1,subcategory2,unit,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051
+<<<<<<< HEAD
+Labor,"Unemployment Rate, Civilian, 16 Years or Older","Unemployment Rate, Civilian, 16 Years or Older",Percent,5.26,4.87,4.35,3.891,3.683,8.108,5.475,3.811,3.748,3.996,4.195,4.314,4.3,4.345,4.445,4.534,4.534,,,,,,,,,,,,,,,,,,,,
+Labor,"Labor Force, Civilian, 16 Years or Older","Labor Force, Civilian, 16 Years or Older",Millions,157.13,159.2,160.317,162.073,163.537,160.741,161.906,164.903,166.828,167.213,167.442,167.713,168.155,168.658,169.131,169.562,170.063,,,,,,,,,,,,,,,,,,,,
+Labor,"Labor Force Participation Rate, 16 Years or Older","Labor Force Participation Rate, 16 Years or Older",Percent,62.65,62.79,62.85,62.869,63.099,61.746,61.872,62.646,62.883,62.508,62.11,61.796,61.574,61.402,61.225,61.046,60.889,,,,,,,,,,,,,,,,,,,,
+Labor,"Employment, Civilian, 16 Years or Older (Household Survey)","Employment, Civilian, 16 Years or Older (Household Survey)",Millions,148.84,151.4,153.335,155.758,157.536,147.793,153.034,158.62,160.575,160.53,160.418,160.477,160.924,161.329,161.612,161.873,162.352,,,,,,,,,,,,,,,,,,,,
+Labor,"Employment, Total Nonfarm (Establishment Survey)","Employment, Total Nonfarm (Establishment Survey)",Millions,141.81,144.3,146.594,148.892,150.9,142.252,146.452,153.165,155.352,155.457,155.536,155.805,156.473,157.037,157.435,157.805,158.409,,,,,,,,,,,,,,,,,,,,
+Population,"Noninstitutional Population, Civilian, 16 Years or Older","Noninstitutional Population, Civilian, 16 Years or Older",Millions,,,255.079,257.79,259.175,260.329,261.675,263.229,265.298,267.506,269.591,271.396,273.092,274.678,276.244,277.76,279.299,,,,,,,,,,,,,,,,,,,,
+Population,Households (Total Occupied Housing Units),Households (Total Occupied Housing Units),Millions,,,119.939,121.478,122.876,125.92,126.219,126.831,127.735,128.719,129.722,130.791,131.811,132.796,133.749,134.628,135.49,,,,,,,,,,,,,,,,,,,,
+Income,"Income, Personal","Income, Personal",Billions of dollars,15458.5,15928.7,16948.6,17851.9,18551.5,19691,20897.1,21119.5,21961.9,22835.6,23768.9,24768.5,25828.2,26971.6,28130.9,29333.3,30656.6,,,,,,,,,,,,,,,,,,,,
+Income,"Compensation of Employees, Paid","Compensation of Employees, Paid",Billions of dollars,9693.1,9978.6,10422.6,10950.1,11432.5,11448.6,12311.5,13103.3,13647.1,14135.9,14648.2,15192.5,15794.1,16408,17030,17654.9,18298.5,,,,,,,,,,,,,,,,,,,,
+Income,Wages and Salaries,Wages and Salaries,Billions of dollars,7854.8,8085.3,8471.5,8894.2,9309.4,9331.1,10041.1,10667.5,11093.6,11495.3,11915.3,12361.9,12843.2,13334.2,13823.5,14308.9,14814.1,,,,,,,,,,,,,,,,,,,,
+Income,Nonwage Income,Nonwage Income,Billions of dollars,4290.3,4427,4969.4,5291.9,5412.7,5409.7,5606.5,5865.2,6184.7,6433.9,6696.3,6989.2,7300.1,7642.1,7997.9,8375.8,8782.2,,,,,,,,,,,,,,,,,,,,
+=======
+Labor,"Unemployment Rate, Civilian, 16 Years or Older",,Percent,5.26,4.87,4.35,3.891,3.683,8.108,5.475,3.811,3.748,3.996,4.195,4.314,4.3,4.345,4.445,4.534,4.534,,,,,,,,,,,,,,,,,,,,
+Labor,"Labor Force, Civilian, 16 Years or Older",,Millions,157.13,159.2,160.317,162.073,163.537,160.741,161.906,164.903,166.828,167.213,167.442,167.713,168.155,168.658,169.131,169.562,170.063,,,,,,,,,,,,,,,,,,,,
+Labor,"Labor Force Participation Rate, 16 Years or Older",,Percent,62.65,62.79,62.85,62.869,63.099,61.746,61.872,62.646,62.883,62.508,62.11,61.796,61.574,61.402,61.225,61.046,60.889,,,,,,,,,,,,,,,,,,,,
+Labor,"Employment, Civilian, 16 Years or Older (Household Survey)",,Millions,148.84,151.4,153.335,155.758,157.536,147.793,153.034,158.62,160.575,160.53,160.418,160.477,160.924,161.329,161.612,161.873,162.352,,,,,,,,,,,,,,,,,,,,
+Labor,"Employment, Total Nonfarm (Establishment Survey)",,Millions,141.81,144.3,146.594,148.892,150.9,142.252,146.452,153.165,155.352,155.457,155.536,155.805,156.473,157.037,157.435,157.805,158.409,,,,,,,,,,,,,,,,,,,,
+Population,"Noninstitutional Population, Civilian, 16 Years or Older",,Millions,,,255.079,257.79,259.175,260.329,261.675,263.229,265.298,267.506,269.591,271.396,273.092,274.678,276.244,277.76,279.299,,,,,,,,,,,,,,,,,,,,
+Population,Households (Total Occupied Housing Units),,Millions,,,119.939,121.478,122.876,125.92,126.219,126.831,127.735,128.719,129.722,130.791,131.811,132.796,133.749,134.628,135.49,,,,,,,,,,,,,,,,,,,,
+Income,"Income, Personal",,Billions of dollars,15458.5,15928.7,16948.6,17851.9,18551.5,19691,20897.1,21119.5,21961.9,22835.6,23768.9,24768.5,25828.2,26971.6,28130.9,29333.3,30656.6,,,,,,,,,,,,,,,,,,,,
+Income,"Compensation of Employees, Paid",,Billions of dollars,9693.1,9978.6,10422.6,10950.1,11432.5,11448.6,12311.5,13103.3,13647.1,14135.9,14648.2,15192.5,15794.1,16408,17030,17654.9,18298.5,,,,,,,,,,,,,,,,,,,,
+Income,Wages and Salaries,,Billions of dollars,7854.8,8085.3,8471.5,8894.2,9309.4,9331.1,10041.1,10667.5,11093.6,11495.3,11915.3,12361.9,12843.2,13334.2,13823.5,14308.9,14814.1,,,,,,,,,,,,,,,,,,,,
+Income,Nonwage Income,,Billions of dollars,4290.3,4427,4969.4,5291.9,5412.7,5409.7,5606.5,5865.2,6184.7,6433.9,6696.3,6989.2,7300.1,7642.1,7997.9,8375.8,8782.2,,,,,,,,,,,,,,,,,,,,
+>>>>>>> 061dc6c7b427975ba44a95812a1dd3393075a218
+Income,Nonwage Income,"Proprietors' income, farm, with IVA & CCAdj",Billions of dollars,40,43.2,41.5,43,49.7,64.7,51.1,43.8,47.3,49.5,51.8,54,56.6,59.6,62.9,66.6,70.5,,,,,,,,,,,,,,,,,,,,
+Income,Nonwage Income,"Proprietors' income, nonfarm, with IVA & CCAdj",Billions of dollars,1336.8,1298.7,1467.5,1542.9,1608,1630.5,1786.9,1854,1919.8,1973.1,2029.8,2094.6,2181.7,2267.7,2352.7,2443.1,2537.8,,,,,,,,,,,,,,,,,,,,
+Income,Nonwage Income,"Income, rental, with CCAdj",Billions of dollars,659.6,707.4,721.9,759.3,787.1,801.8,821,860.7,905.2,936.4,952.4,976.3,1001.5,1034.8,1079,1122.1,1175.6,,,,,,,,,,,,,,,,,,,,
+Income,Nonwage Income,"Interest income, personal",Billions of dollars,1302.8,1415.3,1577.7,1641.6,1677.4,1640.2,1593.9,1535.4,1611.9,1703.4,1850.9,2029.6,2200.4,2389.2,2575.5,2769.7,2961.1,,,,,,,,,,,,,,,,,,,,
+Income,Nonwage Income,"Dividend income, personal",Billions of dollars,951.1,962.5,1160.9,1305.1,1290.4,1272.6,1353.6,1571.3,1700.5,1771.6,1811.3,1834.6,1860,1890.9,1927.7,1974.2,2037.2,,,,,,,,,,,,,,,,,,,,
+<<<<<<< HEAD
+Income,"Profits, Corporate, With IVA & CCAdj","Profits, Corporate, With IVA & CCAdj",Billions of dollars,2088.1,2073.5,2114.5,2243,2250.6,2120.3,2794.9,2998.5,2974.2,2976.8,3030.6,3088.6,3158,3192.3,3218.6,3277.9,3383.8,,,,,,,,,,,,,,,,,,,,
+Income,"Profits, Corporate, Domestic, With IVA & CCAdj","Profits, Corporate, Domestic, With IVA & CCAdj",Billions of dollars,1702.3,1678.8,1617.3,1730.4,1745.1,1688.8,2270.8,2407,2329,2291.7,2315.5,2348.4,2395.9,2408.9,2413.8,2452.2,2532,,,,,,,,,,,,,,,,,,,,
+Growth of Real Earnings Per Worker,,,Rate,2.4,-0.1,1.3,0.7,1.7,5.8,-0.1,0.1,1,1.1,1.1,1,0.9,0.9,0.9,0.9,1,0.9,0.9,0.9,0.9,0.9,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.7,0.7
+=======
+Income,"Profits, Corporate, With IVA & CCAdj",,Billions of dollars,2088.1,2073.5,2114.5,2243,2250.6,2120.3,2794.9,2998.5,2974.2,2976.8,3030.6,3088.6,3158,3192.3,3218.6,3277.9,3383.8,,,,,,,,,,,,,,,,,,,,
+Income,"Profits, Corporate, Domestic, With IVA & CCAdj",,Billions of dollars,1702.3,1678.8,1617.3,1730.4,1745.1,1688.8,2270.8,2407,2329,2291.7,2315.5,2348.4,2395.9,2408.9,2413.8,2452.2,2532,,,,,,,,,,,,,,,,,,,,
+Growth of Real Earnings Per Worker,,,Rate,2.4,-0.1,1.3,0.7,1.7,5.8,-0.1,0.1,1.0,1.1,1.1,1.0,0.9,0.9,0.9,0.9,1.0,0.9,0.9,0.9,0.9,0.9,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.7,0.7
+>>>>>>> 061dc6c7b427975ba44a95812a1dd3393075a218
