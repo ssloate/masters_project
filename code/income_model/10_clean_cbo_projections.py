@@ -13,11 +13,12 @@ df = pd.read_csv(
     encoding="latin-1",
     skiprows=7,
     sep=",",
-    header='infer'
+    header="infer",
 )
+df.drop(columns={"subcategory1"}, inplace=True)  # drop repetitive column
 
 ########################################
-#Clean
+# Clean
 ########################################
 
 # 1. Make long, not wide, for ease
@@ -26,7 +27,7 @@ val_vars = [str(i) for i in range(2015, 2051)]
 
 inc = pd.melt(
     df,
-    id_vars=["category", "subcategory1", "subcategory2", "unit"],
+    id_vars=["category", "subcategory2", "unit"],
     value_vars=val_vars,
     var_name="year",
     value_name="number",
@@ -34,70 +35,64 @@ inc = pd.melt(
 
 # 2. Rename
 
-rename = {'Unemployment Rate, Civilian, 16 Years or Older':'unemp_rate', 'Labor Force, Civilian, 16 Years or Older': 'laborforce', Labor Force Participation Rate, 16 Years or Older: lfp_rate, Employment, Civilian, 16 Years or Older (Household Survey):'emp', 'Employment, Total Nonfarm (Establishment Survey)': 'nonfarm_emp', 'Noninstitutional Population, Civilian, 16 Years or Older', 'pop', 'Households (Total Occupied Housing Units)':'hhs', 'Income, Personal', 'personal_inc', 'Wages and Salaries':wages, 'Nonwage Income', 'total_nonwage', }
+rename = {
+    "Unemployment Rate, Civilian, 16 Years or Older": "unemp_rate",
+    "Nonwage Income": "nonwage_inc",
+    "Profits, Corporate, Domestic, With IVA & CCAdj": "dom_corp_profit",
+    "Profits, Corporate, With IVA & CCAdj": "corp_profit",
+    "Dividend income, personal": "div_inc",
+    "Interest income, personal": "int_inc",
+    "Income, rental, with CCAdj": "rent_inc",
+    "Proprietors' income, nonfarm, with IVA & CCAdj": "nonfarm_prop_inc",
+    "Proprietors' income, farm, with IVA & CCAdj": "farm_prop_inc",
+    "Wages and Salaries": "wages",
+    "Labor Force, Civilian, 16 Years or Older": "laborforce",
+    "Compensation of Employees, Paid": "emp_comp",
+    "Income, Personal": "personal_inc",
+    "Noninstitutional Population, Civilian, 16 Years or Older": "population",
+    "Employment, Total Nonfarm (Establishment Survey)": "tot_nonfarm_emp",
+    "Employment, Civilian, 16 Years or Older (Household Survey)": "total_emp",
+    "Labor Force Participation Rate, 16 Years or Older": "lfp_rate",
+    "Growth of Real Earnings Per Worker": "real_earn_per_wkr_growth",
+}
 
+inc.subcategory2.replace(rename, inplace=True)
 
 ########################################
-# Make Incomes Per Capita 
+# Make Incomes Per Capita
 ########################################
+
 # 1. Make millions in to billions
 
-inc.loc[inc.unit=='Millions', 'number'] = inc.number*.001
-inc.replace('Millions', 'billions', inplace=True)
+inc.loc[inc.unit == "Millions", "number"] = inc.number * 0.001
+inc.replace("Millions", "billions", inplace=True)
+
+# 2. Pivot
+inc = inc.pivot(
+    index=["year"], columns="subcategory2", values="number"
+).reset_index()
+
+# 2. Per Capita, by income type
+
+inc["wage_inc_pc"] = inc.wages / inc.total_emp
+inc["bus_inc_pc"] = inc.nonfarm_prop_inc / inc.tot_nonfarm_emp
+inc["farm_inc_pc"] = inc.farm_prop_inc / (inc.total_emp-inc.tot_nonfarm_emp)
+inc["pers_inc_pc"] = inc.personal_inc / inc.population
+inc["int_inc_pc"] = inc.int_inc / inc.population
+inc["unemp_inc_pc"] = inc.wages / (inc.unemp_rate * inc.laborforce)
+inc["div_inc_pc"] = inc.div_inc / inc.population
+inc["rent_inc_pc"] = inc.rent_inc / inc.population
 
 
+########################################
+# Calculate Percent Change
+########################################
 
+for col in inc.columns[inc.columns.str.contains('pc')]:
+    inc[f'{col}_rate'] = inc[col].pct_change()
 
-# 2. Per Capita
-
-inc["income_percap"] = np.nan
-
-###### Unpivot Labor category to put in column next to 
-inc = inc.pivot(index=['year', 'unit'], columns=['category', 'subcategory1', 'subcategory2', ], values='number').reset_index()
-
-inc.columns = map(
-        lambda x: str(x[0]) + "_" + str(x[1]), inc.columns
-    )  # Collapse level
-
-    off2.columns = off2.columns.str.lstrip(
-        "_"
-    )  # strip leading "_" that was put on some columns in step above
-
-    # 7. Indicate Part 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(
-    inc.dollars / inc.employment
-)  # dollars per worker, to account for pop. growth
-
-inc.sort_values(["comp", "subcomp", "year"], inplace=True, ascending=[True, True, True])
-
-# 2. Pct Change
-inc["pct_change"] = np.nan
-
-inc["pct_change"] = inc.groupby(["comp", "subcomp"])[
-    "dollars_per_wkr"
-].pct_change()  # calc percent change by income group
-
-assert inc[inc.year == inc.year.min()]["pct_change"].isna().all()  # check
+# Make Real Earnings Per Worker growth in %
+inc.real_earn_per_wkr_growth = inc.real_earn_per_wkr_growth / 100
 
 ########################################
 # Final Cleaning/Subsetting
@@ -105,47 +100,40 @@ assert inc[inc.year == inc.year.min()]["pct_change"].isna().all()  # check
 
 inc_all = inc  # save full version before subsetting
 
-# 1. Rename things
-inc_dict = {
-    "Income, Personal": "tot_personal",
-    "Dividend income, personal": "div",
-    "Income, rental, with CCAdj": "rent",
-    "Interest income, personal": "int",
-    "Nonwage Income": "tot_nonwage",
-    "Proprietors' income, farm, with IVA & CCAdj": "farm_prop",
-    "Proprietors' income, nonfarm, with IVA & CCAdj": "nonfarm_prop",
-    "Wages and Salaries": "wage",
-}
+# 1. Subset to just variables we need
 
-inc.replace(inc_dict, inplace=True)
-inc.rename(columns={"subcomp": "income_source"}, inplace=True)
-
-# 2. Redefine with just variables we need
-# Excludes 'Compensation of Employees, Paid', 'Profits, Corporate, Domestic, With IVA & CCAdj', and 'Profits, Corporate, With IVA & CCAdj'
-
-inc = inc[
-    (inc.comp == "wage") | (inc.comp == "tot_nonwage") | (inc.comp == "tot_personal")
-]
+inc_subset= inc[['year', 'wage_inc_pc_rate', 'bus_inc_pc_rate', 'farm_inc_pc_rate', 'pers_inc_pc_rate', 'int_inc_pc_rate', 'unemp_inc_pc_rate', 'div_inc_pc_rate', 'rent_inc_pc_rate', 'real_earn_per_wkr_growth']]
 
 
-# 3. Convert back to wide
+# 2. Convert back to wide
 
-inc = inc.pivot_table(columns=["year", "income_source"], values=["pct_change"])
+inc_subset['index'] = 'index'
 
-######3a. Compress multiindex
+inc_subset = inc_subset.pivot_table(index='index', columns=['year'], values=['wage_inc_pc_rate', 'bus_inc_pc_rate', 'farm_inc_pc_rate', 'pers_inc_pc_rate', 'int_inc_pc_rate', 'unemp_inc_pc_rate', 'div_inc_pc_rate', 'rent_inc_pc_rate', 'real_earn_per_wkr_growth', ]).reset_index()
 
-inc.columns = ["_".join(col).strip() for col in inc.columns.values]
-inc
+# 3. Rename columns
+inc_subset.columns = map(
+        lambda x: str(x[1]) + "_" + str(x[0]), inc_subset.columns
+    )  # Collapse level
+
+inc_subset.columns = inc_subset.columns.str.lstrip(
+        "_"
+    )  # strip leading "_" that was put on some columns in step above
+
+# 4. Replace 0s with Nan in long-term years
+for col in inc_subset.columns[18:]:
+    inc_subset[col].replace(0, np.nan, inplace=True)
+
+
+#5. Rename category
+inc_subset.rename(columns={'subcategory2':'growth_rate'}, inplace=True)
+inc_subset.drop('index', axis=1, inplace=True)
 
 ########################################
 # Exports
 #########################################
 
-inc_all.to_csv(
-    "/Users/samsloate/Desktop/807 MP/masters_project/data/cbo/short_term_economic_projections_clean_all.csv",
-    index=False,
-)
-inc.to_csv(
-    "/Users/samsloate/Desktop/807 MP/masters_project/data/cbo/short_term_economic_projections_clean_subset.csv",
+inc_subset.to_csv(
+    "/Users/samsloate/Desktop/807 MP/masters_project/data/cbo/all_economic_growth_rates_clean.csv",
     index=False,
 )
