@@ -1,0 +1,13 @@
+SAS Commands
+
+reading in CSV file from local folder
+proc import datafile="C:\Users\lnr17\Desktop\SAS tutorial\prelim_demographic_projections.csv"
+out=sastest.dem_proj dbms=csv replace; 
+getnames=yes; 
+run;
+
+reading in an rtf file
+data sastest.example;
+infile "filepath" firstobs=2;
+input VARNAME1 VARNAME 2 VARNAME 3
+run; 
