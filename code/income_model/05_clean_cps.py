@@ -34,27 +34,27 @@ race_dict = {
     651: "aapi",
     652: "aapi",
     700: "other",
-    801: 'two or more',
-    802: 'two or more',
-    803: 'two or more',
-    804: 'two or more',
-    805: 'two or more',
-    806: 'two or more',
-    807: 'two or more',
-    808: 'two or more',
-    809: 'two or more',
-    810: 'three or more',
-    811: 'three or more',
-    812: 'three or more',
-    813: 'three or more',
-    814: 'three or more',
-    815: 'three or more',
-    816: 'three or more',
-    817: 'three or more',
-    818: 'three or more',
-    819: 'three or more',
-    820: 'three or more',
-    830: 'three or more',
+    801: 'multi',
+    802: 'multi',
+    803: 'multi',
+    804: 'multi',
+    805: 'multi',
+    806: 'multi',
+    807: 'multi',
+    808: 'multi',
+    809: 'multi',
+    810: 'multi',
+    811: 'multi',
+    812: 'multi',
+    813: 'multi',
+    814: 'multi',
+    815: 'multi',
+    816: 'multi',
+    817: 'multi',
+    818: 'multi',
+    819: 'multi',
+    820: 'multi',
+    830: 'multi',
     999: np.nan
 }
 
@@ -66,9 +66,9 @@ cps.sex.replace({1: "m", 2: "f"}, inplace=True)
 
 # 3. recode Hispanic
 
-cps.loc[(cps.hispan != 0), "race"] = "hispanic"
-
-cps.drop("hispan", axis=1, inplace=True)
+cps.loc[(cps.hispan>0)&(cps.hispan<901), 'hispan'] = 'hisp'
+cps.loc[(cps.hispan=="901") | (cps.hispan=="902"), 'hispan'] = np.nan
+cps.hispan.replace({0: "nonhisp"}, inplace=True)
 
 # 4. recode marital status
 
